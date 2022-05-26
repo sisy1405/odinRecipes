@@ -1,0 +1,56 @@
+#container-body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+#container {
+    margin: auto;
+    background-color: rgb(205, 176, 232);
+    width: 1000px;
+}
+
+#container-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#page-title {
+    background-color: white;
+    color: black;
+    font-size: 60px;
+    border-radius: 20px;
+    width: 900px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-image {
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    width: 900px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal-image {
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 35px;
+}
+
+.recipe {
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
