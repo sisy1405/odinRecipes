@@ -10,22 +10,9 @@
     width: 1000px;
 }
 
-#container-title {
+#container-title {    
     display: flex;
     justify-content: center;
-    text-align: center;
-}
-
-#page-title {
-    background-color: white;
-    color: black;
-    font-size: 60px;
-    border-radius: 20px;
-    width: 900px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #container-image {
@@ -38,19 +25,15 @@
     justify-content: center;
     align-items: center;
 }
-.principal-image {
-    background-color: white;
+
+#image {
     width: 800px;
-    height: 500px;
+    height: 450px;
     border-radius: 20px;
-    margin-left: 35px;
 }
 
-.recipe {
-    margin: 10px;
-    padding: 10px;
-    font-size: 30px;
+#text {
+    margin: 20px;
     text-align: left;
-    display: flex;
-    justify-content: center;
+    line-height: 35px;
 }
